@@ -1,8 +1,8 @@
-import React from 'react';
-import { useGlobalState } from './globals';
+import React, {useContext} from 'react';
+import {GlobalContext}  from './globals';
 
 function Strawberry() {
-  const globalState = useGlobalState();
+  const globalState = useContext(GlobalContext);
   return (
     <div className='fruitContent'>
       <h2 className='fruitName'>🍓 Strawberry</h2>
