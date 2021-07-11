@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 export const GlobalContext = React.createContext(null);
 
-export function useGlobalState(initialState = {}) {
+export function useGlobalState() {
   const [strawberryAmount, setStrawberryAmount] = useState(0);
   const [bananaAmount, setBananaAmount] = useState(0);
   const [appleAmount, setAppleAmount] = useState(0);

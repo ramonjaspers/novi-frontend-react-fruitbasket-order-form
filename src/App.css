@@ -1,31 +1,43 @@
-.fruitContent{
-    display: flex;
-    flex-flow: row wrap;
-    border: 1px solid black;
-    width: 400px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 25px;
-    justify-content: center;
+/* fruit form */
+.fruitContent {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid black;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 25px;
+  justify-content: center;
 }
 
-.fruitname{
-
+.fruitAmount {
+  align-self: center;
 }
-.fruitAmount{
-    align-self: center;
-}
-.plusButton, .minusButton {
-    margin: 10px;
+.plusButton,
+.minusButton {
+  margin: 10px;
 
-    align-self: center;
-    height: 25px;
-    width: 25px;
+  align-self: center;
+  height: 25px;
+  width: 25px;
 }
 
-#clearButton{
-    border-radius: 10px;
-    width: 400px;
-    height: 50px;
-    margin: 10px;
+#clearButton {
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  margin: 10px;
 }
+
+/* customer form */
+.wrapper {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 400px;
+  text-align-last: center;
+}
+
+.error {
+  color: #ff0000;
+}
+
